@@ -21,3 +21,6 @@ Projeto de automação E2E do OrangeHRM com Cypress (JavaScript), organizado par
 ### Relatórios e CI
 - Integração com **Allure** para análise de resultados
 - **Jenkinsfile** com pipeline: Install -> Smoke -> Regression (opcional) -> Allure -> Archive Artifacts
+
+### Validação de webhook
+- Commit de teste realizado para validar o disparo automático do Jenkins via push no GitHub.
