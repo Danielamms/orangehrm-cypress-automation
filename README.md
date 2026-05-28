@@ -11,6 +11,11 @@ Projeto de automação E2E do OrangeHRM com Cypress (JavaScript), organizado par
 - **Smoke (P0):** fluxos críticos de negócio e segurança
 - **Regression (P1):** cobertura funcional ampliada para reduzir regressão
 
+### Estimativa de esforço (ISTQB)
+- Estimativa baseada em risco e por fase do teste (modelagem, automação, execução e análise).
+- Fórmula usada: **(Design + Automação + Execução/Análise) x quantidade de testes + 25% de reserva**.
+- Para os 12 cenários implementados, a estimativa total é de **aprox. 26 horas**.
+
 ### Arquitetura
 - `cypress/e2e/specs` (login, home, sessao, suites)
 - `cypress/support/commands` (comandos reutilizáveis)
